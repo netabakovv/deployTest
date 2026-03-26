@@ -2,11 +2,11 @@ import React from 'react';
 import {Routes, Route, Link, HashRouter} from 'react-router-dom';
 
 const PageOne = () => {
-  return <div></div>;
+  return <h1>Page onneeeeee</h1>;
 };
 
 const PageTwo = () => {
-  return <div></div>;
+  return <h1>Page twoooooooo</h1>;
 };
 
 function App() {
