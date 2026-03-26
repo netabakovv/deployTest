@@ -11,7 +11,7 @@ const PageTwo = () => {
 
 function App() {
   return (
-      <HashRoute>
+      <HashRouter>
         <nav style={{ padding: '20px', borderBottom: '1px solid #ccc' }}>
           <Link to="/" style={{ marginRight: '15px' }}>Страница 1</Link>
           <Link to="/page-two">Страница 2</Link>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/" element={<PageOne />} />
           <Route path="/page-two" element={<PageTwo />} />
         </Routes>
-      </HashRoute>
+      </HashRouter>
   );
 }
 
