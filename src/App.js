@@ -2,7 +2,7 @@ import React from 'react';
 import {Routes, Route, Link, HashRouter} from 'react-router-dom';
 
 const PageOne = () => {
-  return <h1>Page onneeeeee</h1>;
+  return <h1>Page onneeeee</h1>;
 };
 
 const PageTwo = () => {
